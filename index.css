@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+}
+img{
+    width: 40px;
+   margin-left: 10px;
+}
+.circle1{
+    border-radius: 50%;
+    height: 30px;
+    width: 34px;
+    background-color: rgb(189, 124, 4);
+    margin: 10px 34px;
+}
+.circle2{
+    border-radius: 50%;
+    height: 30px;
+    width: 34px;
+    background-color: rgb(22, 102, 95);
+    margin: 10px 34px;
+}
+.circle3{
+    border-radius: 50%;
+    height: 30px;
+    width: 34px;
+    background-color: rgb(7, 78, 22);
+    margin: 10px 34px;
+}
+.one{
+    background-color: rgb(204, 135, 7);
+   margin-top: 120px;
+   margin-left:  200px;
+   width: 260px;
+   height:340px ;
+   color: white;
+   border-radius: 6px 0 0px 6px;
+}
+.two{
+   background-color: rgb(24, 116, 108);
+   margin-top: 120px;
+   width: 240px;
+   height:340px ;
+   color: white;
+}
+.three{
+    background-color: rgb(4, 87, 22);
+    margin-top: 120px ;
+    width: 260px;
+    height:340px ;
+    color: white;
+    border-radius: 0 6px 6px 0;
+}
+
+h1{
+    margin-bottom: 20px;
+    padding-left: 34px;
+    font-size: 26px;
+    opacity: .8;
+    font-family: 'Roboto Mono', monospace;
+}
+p{
+    /* padding-top: 16px; */
+    width: 200px;
+    padding-left: 34px;
+    opacity: .8;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    background-color: white;
+    border:none;
+    margin: 30px 34px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: 'Roboto Mono', monospace bold;
+}
+#one{
+    color:rgb(204, 135, 7) ;
+    margin-top: 45px;
+}
+#two{
+    color: rgb(24, 116, 108);
+}
+#three{
+    color:rgb(4, 87, 22) ;
+}
+
+
+/* iPad Air */
+@media screen and (max-width:822px){
+    
+    html{
+        height: 130rem;
+    }.body{
+        margin-top: -60px;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .one{
+        border-radius: 6px 6px 0 0;
+    }
+    .two{
+        margin-left: 200px;
+        width: 260px;
+        margin-top: -.4px;
+    }
+    .three{
+        margin-left: 200px; 
+        border-radius: 0 0  6px 6px;
+        margin-top: -.8px;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+}
