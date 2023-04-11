@@ -91,6 +91,7 @@ button{
 
 
 /* iPad Air */
+
 @media screen and (max-width:822px){
     
     html{
@@ -102,18 +103,30 @@ button{
     }
     .one{
         border-radius: 6px 6px 0 0;
+        margin-left: 100px; 
     }
     .two{
-        margin-left: 200px;
+        margin-left: 100px;
         width: 260px;
         margin-top: -.4px;
     }
     .three{
-        margin-left: 200px; 
+        margin-left: 100px; 
         border-radius: 0 0  6px 6px;
         margin-top: -.8px;
     }
     h1{
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:422px){
+    body{
+        margin-left: -160px;
+    }
+}
+@media screen and (max-width:922px){
+    body{
+        margin-left: -160px; 
     }
 }
